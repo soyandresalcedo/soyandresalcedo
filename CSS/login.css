@@ -1,0 +1,133 @@
+*{
+ 
+    margin: 0;
+}
+:root{
+    /* Colores*/
+    --menta: #00C6AE;
+    --yellow-green: #eec210;
+    --soft-orange: #ffe9d5;
+    --blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --red: #F95A2C;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--soft-orange);  
+    background-image: linear-gradient(19deg, ##ffe9d5 0%, #231F20 100%);
+    
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.login__container{
+    background-color: var(--menta);
+    height: 420px;
+    width: 500px;
+    border: solid 2px;
+    border-radius: 20px 20px 0px 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px auto;
+}
+.login__container--form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.input{
+    font-family: inherit;
+    font-size: medium;
+    height: 56px;
+    width: 327px;
+    left: 24px;
+    top: 88px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.input::placeholder{
+    font-family: inherit;
+    font-size: medium;
+    color: var(--warm-black) ;
+    font-family: inherit;
+    font-weight: medium;
+    font-size: 21px;
+    
+}
+.button{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 21px;
+    color: var(--just-white);
+    height: 60px;
+    width: 327px;
+    left: 24px;
+    top: 272px;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: var(--black);
+    cursor: pointer;
+    border-color: var(--warm-black);
+    margin-top: 20px;
+}    
+.login__container--remember-me{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.login__container--remember-me a{
+    color: var(--warm-black);
+    margin-left: 10px;
+}
+p{
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+p a{
+    color: var(--red);
+    font-weight: 700;
+    margin-left: 5px;
+    
+}
+img{
+    height: 500px;
+    width: auto;
+}
+.mujer{
+    margin-left: 50px;
+}

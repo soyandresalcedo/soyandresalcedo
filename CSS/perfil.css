@@ -1,0 +1,11 @@
+.redes__sociales{
+    display: flex;
+    width: inherit;
+    height: 50px;
+    justify-content: flex-end;
+    align-content: center;
+    
+}
+.redes__sociales a{
+    margin: 25px 10px 0 0;
+}

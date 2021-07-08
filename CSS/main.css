@@ -1,0 +1,119 @@
+*{
+ 
+    margin: 0;
+}
+:root{
+    /* Colores*/
+    --menta: #00C6AE;
+    --yellow-green: #eec210;
+    --soft-orange: #ffe9d5;
+    --blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --red: #F95A2C;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--soft-orange);  
+    background-image: linear-gradient(19deg, ##ffe9d5 0%, #231F20 100%);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+img{
+    height: 500px;
+    width: 650px;
+    left: 662px;
+    top: 100px;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.comic__section-redcontainer{
+    display: flex;
+    background-color: var(--menta);
+    height: 300px;
+    width: 327px;
+    top: 42000px;
+    border: solid 2px;
+    border-radius: 20px 20px 20px 0px;
+    justify-content: center;
+    
+}
+.comic__section-talk{
+    justify-content: center;
+    align-content: center;
+}
+.comic__section-talk h1{
+    font-size: 32px;
+    text-align: center;
+    color: var(--warm-black);
+    margin: 50px 20px auto;
+}
+.comic__section-talk p{
+    font-size: 16px;
+    text-align: center;
+    color: var(--warm-black);
+    margin-top: 20px; 
+    font-weight: 500;
+}
+.sign__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px;
+   
+}
+.login__button{
+    
+    font-size: medium;
+    height: 36px;
+    width: 75px;
+    background-color: var(--black);
+    border-radius: 12px;
+    padding: 10px, 16px, 10px, 16px;
+    cursor: pointer;
+    border-color: var(--warm-black);
+}
+.login__button a{
+    color: var(--just-white);
+    text-decoration: none;
+}
+
+.group1{
+    display: flex;
+    align-content: flex-;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    
+}
+.derechos{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    color: var(--warm-black);
+}   
