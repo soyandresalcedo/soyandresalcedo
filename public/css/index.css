@@ -1,3 +1,38 @@
+*{
+ 
+  margin: 0;
+}
+:root{
+  /* Colores*/
+  --menta: #00C6AE;
+  --yellow-green: #eec210;
+  --soft-orange: #ffe9d5;
+  --blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --red: #F95A2C;
+  --warm-black: #201e1c;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--soft-orange);  
+  background-image: linear-gradient(19deg, ##ffe9d5 0%, #231F20 100%);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--warm-black);
+}
+
+
+
+
+
+
+
 @font-face {
   font-family: "Flaticon";
   src: url("../fonts/Flaticon.eot");
@@ -52,25 +87,24 @@
   color: #fff;
   font-size: 17px;
 }
-body {
-  font-family: 'Allerta', sans-serif;
-}
+
 .headerppal {
-  background: #126798;
+  background: var(--soft-orange);
   overflow: hidden;
   box-shadow: 0 8px 10px rgba(0,0,0,0.5);
   padding-bottom: 30px;
   text-align: center;
 }
 .headerppal .titulo {
-  color: #fff;
+  color: var(--warm-black);
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   margin-top: 30px;
   margin-bottom: 0;
 }
 .headerppal .titulo-a {
-  color: #fff;
+  color: var(--warm-black);
   font-size: 20px;
   padding-top: 5px;
   padding-bottom: 15px;
