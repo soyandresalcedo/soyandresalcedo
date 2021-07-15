@@ -77,13 +77,16 @@ body{
   font-style: normal;
 }
 .btnPpal {
-  background: #7acc2d !important;
+  border-radius: var(--warm-black);
+  border: black solid 2px;
+  border-radius: 15px 15px 15px 0px;
+  background-color:var(--red);
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   transition: 0.5s;
 }
 .btnPpal:hover {
-  background: #7acc2d;
+  background-color: var(--blue);
   color: #fff;
   font-size: 17px;
 }
@@ -117,12 +120,14 @@ body{
 .headerppal .header-logotipo img {
   border-right-style: solid;
   border-width: 2px;
-  border-color: #fff;
-  border-radius: 60%;
-  height: 140px;
-  padding: 20px;
+  border: none;
+  /* height: 140px; */
+  /* padding: 20px; */
   width: 140px;
   transition: 0.6s;
+  background-repeat: no-repeat;
+  background-image: cover;
+  
 }
 .headerppal .header-logotipo img:hover {
   transform: scale(1.2);
@@ -135,14 +140,14 @@ body{
 }
 .headerppal .header-avatar img {
   border-radius: 60%;
-  height: 80px;
-  width: 80px;
+  height: 120px;
+  width: 120px;
   transition: 0.6s;
   transform: translateY(100px);
+  background-color: yellowgreen;
 }
 .menu {
-  background: #219cca;
-  border-left: 10px solid #fff;
+  background: var(--red);
   box-shadow: 0 8px 10px rgba(0,0,0,0.5);
 }
 .menu ul {
@@ -388,11 +393,11 @@ label
   text-align: center;
 }
 .registro-formulario .registro-iconos-redes {
-  background: #fff !important;
+  background: var(--soft-blue);
   text-align: center;
 }
 .registro-formulario .registro-iconos-redes .logo-facebook:before {
-  color: #7acc2d;
+  color: var(--warm-black);
   content: "\f101";
   font-size: 40px;
   font-family: "Flaticon";
@@ -401,7 +406,7 @@ label
   margin-left: 1em;
 }
 .registro-formulario .registro-iconos-redes .logo-google:before {
-  color: #7acc2d;
+  color: var(--warm-black);
   content: "\f2b3";
   font-size: 45px;
   font-family: "googleicon";
@@ -410,7 +415,7 @@ label
   margin-left: 1em;
 }
 .registro-formulario .registro-iconos-redes .logo-twitter:before {
-  color: #7acc2d;
+  color: var(--warm-black);
   content: "\f102";
   font-size: 40px;
   font-family: "Flaticon";
@@ -499,6 +504,9 @@ label
     font-size: 1.5em;
   }
   .modal-registro {
-    width: 70% !important;
+    width: 70%;
+    border-radius: 25px 25px 25px 0px;
+    background-color: var(--soft-blue);
+    border: var(--warm-black) solid 2px ;
   }
 }
