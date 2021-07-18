@@ -18,10 +18,18 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+h1, h2,  h4, h5, h6 {
+  font-family: inherit;
 }
 
+h3{
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  justify-content: center;
+  align-content: center;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -825,6 +833,36 @@ section {
     padding: 0;
   }
 }
+
+
+/* 
+ 
+ #Cards
+ 
+*/
+
+.experience{
+ 
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.experience h3{
+
+  text-align: center;
+}
+
+.card {
+
+  width: 320px;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 10px;
+  background-color: var(--yellow);
+}
+
 
 /*--------------------------------------------------------------
 # Contact

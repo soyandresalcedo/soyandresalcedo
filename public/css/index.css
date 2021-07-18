@@ -206,7 +206,7 @@ body{
 
 .footer {
   height: 100%;
-  background: #126798;
+  background: var(--dark-blue);
   margin: 0px;
 }
 .footer .contenedor-footer {
@@ -225,7 +225,7 @@ body{
   color: #fff;
   display: flex;
   flex-direction: column;
-label
+
 }
 .footer .contenedor-footer .formulario-contactenos .form-col1 input,
 .footer .contenedor-footer .formulario-contactenos .form-col2 input {
@@ -274,19 +274,19 @@ label
   text-decoration: none;
 }
 .footer .contenedor-footer .redesSociales .logos-redes .logo-facebook:before {
-  color: #7acc2d;
+  color: var(--yellow);
   content: "\f101";
   font-size: 30px;
   font-family: "Flaticon";
 }
 .footer .contenedor-footer .redesSociales .logos-redes .logo-twitter:before {
-  color: #7acc2d;
+  color: var(--yellow);
   content: "\f102";
   font-size: 30px;
   font-family: "Flaticon";
 }
 .footer .contenedor-footer .redesSociales .logos-redes .logo-github:before {
-  color: #7acc2d;
+  color: var(--yellow);
   content: "\f100";
   font-size: 30px;
   font-family: "Flaticon";
@@ -522,7 +522,7 @@ label
     margin-top: 40px;
     margin-bottom: 45px;
     padding-right: 3em;
-    border-right: 3px solid #fff;
+    /* border-right: 3px solid ; */
   }
   .registro-bienvenida {
     text-align: left;
