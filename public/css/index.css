@@ -6,6 +6,7 @@
   /* Colores*/
   --menta: #00C6AE;
   --yellow-green: #eec210;
+  --yellow: #fbbc05;
   --soft-orange: #ffe9d5;
   --blue: #1a9af7;
   --soft-blue: #e7f5ff;
@@ -15,16 +16,18 @@
   --grey: #bababa;
   --off-white: #faf8f7;
   --just-white: #fff;
+  --dark-blue: #081319;
+  --violet:#800F3B;
+
 }
 
 
 body{
   margin: 0;
   padding: 0;
-  background-color: var(--soft-orange);  
-  background-image: linear-gradient(19deg, ##ffe9d5 0%, #231F20 100%);
+  background-color: var(--dark-blue);  
   font-family: 'Montserrat', sans-serif;
-  color: var(--warm-black);
+  color: var(--just-white);
 }
 
 
@@ -79,59 +82,31 @@ body{
 .btnPpal {
   border-radius: var(--warm-black);
   border: black solid 2px;
-  border-radius: 15px 15px 15px 0px;
+  border-radius: 15px 15px 0px 15px;
   background-color:var(--red);
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   transition: 0.5s;
 }
 .btnPpal:hover {
-  background-color: var(--blue);
+  /* background-color: var(--blue); */
   color: #fff;
   font-size: 17px;
 }
 
 .headerppal {
-  background: var(--soft-orange);
+  background: var(--dark-blue);
   overflow: hidden;
   box-shadow: 0 8px 10px rgba(0,0,0,0.5);
   padding-bottom: 30px;
   text-align: center;
+  height: 100px;
 }
-.headerppal .titulo {
-  color: var(--warm-black);
-  font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 0;
-}
-.headerppal .titulo-a {
-  color: var(--warm-black);
-  font-size: 20px;
-  padding-top: 5px;
-  padding-bottom: 15px;
-}
-.headerppal .header-logotipo {
-  margin-right: 5em;
-  margin-left: 50px;
-  margin-top: 20px;
-}
-.headerppal .header-logotipo img {
-  border-right-style: solid;
-  border-width: 2px;
-  border: none;
-  /* height: 140px; */
-  /* padding: 20px; */
-  width: 140px;
-  transition: 0.6s;
-  background-repeat: no-repeat;
-  background-image: cover;
-  
-}
-.headerppal .header-logotipo img:hover {
+
+
+/* .headerppal .header-logotipo img:hover {
   transform: scale(1.2);
-}
+} */
 .headerppal .header-avatar {
   display: none;
   float: right;
@@ -140,15 +115,16 @@ body{
 }
 .headerppal .header-avatar img {
   border-radius: 60%;
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   transition: 0.6s;
   transform: translateY(100px);
   background-color: yellowgreen;
 }
 .menu {
-  background: var(--red);
+  background: var(--dark-blue);
   box-shadow: 0 8px 10px rgba(0,0,0,0.5);
+  height: 100px;
 }
 .menu ul {
   margin: 0px;
@@ -170,6 +146,60 @@ body{
 .menu ul li a:hover {
   font-size: 17px;
 }
+.img_welcome{
+  margin-top: 200px;
+}
+.banner_welcome{
+  display: flex;
+  justify-items: right;
+  
+}
+.banner_welcome--me{
+
+  color: var(--dark-blue);
+  width: 450px;
+  height: 250px;
+  background-color: var(--soft-orange);
+  padding: 10px;
+  border-radius: 20px 20px 20px 0px;
+  border: solid 2px red;
+}
+.banner_welcome--me h3{
+
+  font-family: inherit;
+  font-size: 45px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  
+}
+.banner_welcome--me p{
+
+  display: flex;
+  text-align: center;
+  
+}
+.banner_welcome2{
+
+  color: var(--dark-blue);
+  width: 450px;
+  height: 250px;
+  background-color: var(--soft-orange);
+  padding: 10px;
+  border-radius: 20px 20px 0px 20px;
+  border: solid 2px red;
+  margin-left: 25px;
+}
+
+.banner_welcome2 h3{
+  font-family: inherit;
+  font-size: 45px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+
+}
+
 .footer {
   height: 100%;
   background: #126798;
@@ -349,13 +379,14 @@ label
   width: 100%;
 }
 .registro-bienvenida h4 {
-  color: #126798;
+  color: var(--warm-black);
   font-size: 1.5em;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
 .registro-bienvenida .registro-bienvenida-texto {
+  color: var(--warm-black);
   margin-bottom: 1em;
   font-size: 1em;
   text-align: left;
