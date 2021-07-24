@@ -1,0 +1,205 @@
+
+/* MENU UL */
+
+.menu{
+
+
+}
+.menu ul {
+    font-size: bold;
+    height: 40px;
+}
+.menu ul li {
+    display: flex;
+}
+
+
+/* Boton inicio de sesión */
+.menu .btnPpal {
+
+      border-radius: var(--warm-black);
+      border: black solid 2px;
+      border-radius: 15px 15px 0px 15px;
+      background-color:var(--pink);
+      font-family: inherit;
+      font-weight: bold;
+      transition: 0.5s;
+}
+
+
+.banner_welcome{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+}
+
+.banner_welcome--me{
+      display: flex;
+      width: 250px;
+      height: 250px;
+      padding: 10px;
+      border-radius: 20px 20px 20px 0px;
+      border: solid 2px red;
+      margin: 20px auto;
+}
+
+.banner_welcome--me h3{
+
+      font-family: inherit;
+      font-size: 25px;
+      font-weight: bold;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      
+}
+.banner_welcome--me p{
+    
+      display: none;
+      
+}
+
+.banner_welcome2{
+
+    color: var(--warm-black);
+    width: 250px;
+    height: 250px;
+    background-color: var(--just-white);
+    padding: 10px;
+    border-radius: 20px 20px 0px 20px;
+    border: solid 2px var(--dark-blue);
+    
+}
+  
+.banner_welcome2 h3{
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+.banner_welcome2 p{
+
+    display: none;
+    
+  
+}
+.img_welcome{
+    display: none; 
+    
+}  
+.img_welcome2{
+    display: flex; 
+    width: 100px;
+    height: 200px;
+}  
+.img_welcome2 img{
+      transform: scale(0.9);
+
+}
+
+/* MODAL */
+.modal .modal-content{
+
+      padding: 10%;
+}
+.modal .modal-content img{
+      display: none;
+}
+
+
+
+
+
+
+
+.posts .post {
+      display: inline-block;
+      margin-top: 25px;
+      width: 47%;
+}
+.posts .post .post-descripcion {
+      height: 120px;
+}
+.contenedor-footer {
+      display: flex;
+      justify-content: center;
+}
+.footer .contenedor-footer .formulario-contactenos {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+}
+.footer .contenedor-footer .formulario-contactenos .form-col1 {
+      margin-top: 0;
+      margin-bottom: 0;
+}
+.footer .contenedor-footer .formulario-contactenos .form-col1 .tipos-comentarios {
+      display: flex;
+      flex-direction: row;
+}
+.footer .contenedor-footer .redesSociales {
+      margin-top: 40px;
+      margin-bottom: 45px;
+      
+}
+.registro-bienvenida {
+      text-align: left;
+}
+.registro-bienvenida h4 {
+      display: block;
+      text-align: center;
+      margin-bottom: 1em;
+      font-size: 2em;
+}
+.registro-bienvenida .registro-bienvenida-texto {
+      margin-bottom: 2em;
+      font-size: 1.5em;
+}
+.registro-bienvenida span {
+      font-size: 1.5em;
+}
+.modal-registro {
+      width: 70%;
+      border-radius: 25px 25px 25px 0px;
+      background-color: var(--soft-blue);
+      border: var(--warm-black) solid 2px ;
+}
+
+/* Grilla */
+
+.container__collection{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      
+}
+
+
+
+/* PLANS */
+
+.Plans, .Plans H3{
+      width: 100%;
+      min-width: 320px;
+      padding-bottom: 70px;
+      text-align: center;
+      margin-top: 50px;
+      font-weight: bold;
+      font-size: 2.28rem;
+    
+}
+
+/* FOOTER */
+.footer .contenedor-footer .redesSociales .realizadopor {
+      font-size: 14px;
+      font-weight: bold;
+      color: #FFF;
+      
+      
+}
