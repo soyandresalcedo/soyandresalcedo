@@ -1900,6 +1900,8 @@ header .logo a {
 }
 .popup-modal .media {
 	position: relative;
+	background-color: black;
+	
 }
 .popup-modal img {
 	vertical-align: bottom;
