@@ -1627,6 +1627,7 @@ header .logo a {
 }
 #resume .resume-header h2 {
 	color: #FF0077;
+	margin: 50px;
 }
 
 #resume .resume-timeline {
