@@ -1,9 +1,6 @@
 /**
  * =================================================================== 
- *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
+ 
  *  ------------------------------------------------------------------
  *  TOC:
  *  01. webfonts and iconfonts
@@ -1119,7 +1116,7 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("/public/Hireme/images/") no-repeat center;
+	background: url("/") no-repeat center;
 	background-size: 92px 15px;
 }
 
@@ -1294,7 +1291,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(/public/imagenes/andres.jpg) no-repeat center bottom;
+	background: #151515 url(../images/andres.jpg) no-repeat center ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
